@@ -17,8 +17,10 @@ ppl_tst = [
 #cycle to check
 for ppl in ppl_tst:
     if ppl in favorite_langauges.keys():
+        #wmsg for warning message
         wmsg = f"{ppl.title()}, thank you for participating!"
         print(wmsg)
     else:
+        #smsg for status message
         smsg = f"Dear {ppl.title()}, please take our poll!"
         print(smsg)
