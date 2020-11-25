@@ -3,4 +3,4 @@ def favorite_book(title):
     print(rmsg)
 qmsg = "What is your favorite book? "
 title = input(qmsg)
-favorite_book(title) 
+favorite_book(title)
