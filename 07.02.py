@@ -7,3 +7,4 @@ if number > 8:
 else:
     smsg = "Please, enjoy your dinner!"
     print(smsg)
+

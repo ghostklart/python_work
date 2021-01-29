@@ -1,8 +1,12 @@
 while True:
-    dmsg = "Please, type your topping: "
+    dmsg = "Please, type your topping. \nType 'quit' to end the procedure: "
+    toppings = []
     topping = input(dmsg)
     if topping == 'quit':
+        print(f"Your pizza will contain: {toppings}.")
         break
     else:
-        smsg = f"{topping.title()} were added to cart!"
+        toppings.append(topping)
+        smsg = f"{topping.title()} were added to cart."
         print(smsg)
+
