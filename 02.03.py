@@ -1,4 +1,5 @@
 #name_cases
-f_name = "Eric"
-message = f"Hello {f_name}, would you like to learn some Python today?"
+f_name = "eric"
+message = f"Hello {f_name.title()}, would you like to learn some Python today?"
 print(message)
+

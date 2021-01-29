@@ -2,7 +2,7 @@ glist = []
 glist.append('sergey')
 glist.append('mikhail')
 glist.append('dmitriy')
-print(glist)
+# print(glist)
 
 message = 'Thank you for coming to my dinner,'
 
@@ -14,3 +14,4 @@ print(fmesg)
 
 fmesg = f"{message} {glist[2].title()}!"
 print(fmesg)
+
