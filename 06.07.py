@@ -21,11 +21,7 @@ person_2 = {
 	'age': 18
 }
 
-people = (
-	person_0,
-	person_1,
-	person_2
-	)
+people = [person_0, person_1, person_2]
 
 #print(people)
 #for person in people:
@@ -37,3 +33,4 @@ for person in people:
 	location = person['city']
 	message = f"{full_name.title()} at the age of {age} lives in {location.title()}."
 	print(message)
+

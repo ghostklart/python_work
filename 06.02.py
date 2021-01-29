@@ -34,3 +34,4 @@ smesg = f"{favorite_ppl[3].title()}'s favorite number is: {favorite_numbers[favo
 print(smesg)
 smesg = f"{favorite_ppl[4].title()}'s favorite number is: {favorite_numbers[favorite_ppl[4]]}."
 print(smesg)
+

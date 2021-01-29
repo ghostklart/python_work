@@ -16,3 +16,4 @@ message2 = "The last three items in the list are:"
 print(message2)
 for cube in cubes[7:11]:
 	print(cube)
+

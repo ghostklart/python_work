@@ -24,3 +24,4 @@ for name, numbers in favorite_numbers.items():
 	print(message)
 	for number in numbers:
 		print("\t" + str(number))
+

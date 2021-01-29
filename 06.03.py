@@ -15,4 +15,5 @@ glossary[definitions[3]] = 'specified meaning of the option'
 glossary[definitions[4]] = 'visual editor for code'
 #printing
 for definition in definitions:
-    print(f"{definition.title()}: {glossary[definition]}.") 
+    print(f"{definition.title()}: {glossary[definition]}.")
+

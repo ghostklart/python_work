@@ -19,8 +19,9 @@ new_users.append('serGey')
 
 for new_user in new_users:
     if new_user.lower() not in current_users:
-        hmesg = f"Welcome to my portatl {new_user.title()}!"
+        hmesg = f"Welcome to my portatl {new_user.title()}!\n"
         print(hmesg)
     elif new_user.lower() in current_users:
-        hmesg = f"Dear user, please select another username!"
+        hmesg = f"Dear user, please select another username!\n"
         print(hmesg)
+

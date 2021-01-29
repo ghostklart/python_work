@@ -14,3 +14,4 @@ print(favorite_person['last_name'].title())
 print(favorite_person['city'].title())
 #print age
 print(favorite_person['age'])
+

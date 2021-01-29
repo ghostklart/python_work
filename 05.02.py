@@ -56,3 +56,4 @@ new_skill = 'C#'
 
 if new_skill not in my_list:
     print("You need to upgrade your programming skills!")
+

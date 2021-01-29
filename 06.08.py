@@ -33,3 +33,4 @@ for pet in pets:
 	aage = pet['age']
 	message = f"{pname.title()}'s owner is {aown.title()}. It's a {tanimal} which is {aage} years old."
 	print(message)
+

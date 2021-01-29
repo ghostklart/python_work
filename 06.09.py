@@ -12,3 +12,4 @@ for name, places in favorite_places.items():
 	print(message)
 	for place in places:
 		print("\t" + place.title())
+
